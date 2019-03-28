@@ -1,11 +1,11 @@
-/*************************************************************************
-*	This program is used to send file through socket in the following    *
-* 	format:                                                              *
+/*********************************************************************************
+*	This program is used to send file through socket in the following     	 *
+* 	format:                                                              	 *
 * 		./executable tcp recv <ip> <port>                                *
-* 		./executable tcp send <ip> <filename>                     		 *
+* 		./executable tcp send <ip> <filename>                     	 *
 * 		./executable udp recv <ip> <port>                                *
-* 		./executable udp send <ip> <filename>                    		 *                                                       *
-*************************************************************************/
+* 		./executable udp send <ip> <filename>                    	 *                                                       *
+**********************************************************************************/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
