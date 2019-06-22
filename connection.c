@@ -259,7 +259,7 @@ void print_time(){
 	timeinfo = localtime(&rawtime);
 	printf("%d/%d/%d %d:%02d:%02d\n", 1900+timeinfo->tm_year, 1+timeinfo->tm_mon, timeinfo->tm_mday, timeinfo->tm_hour, timeinfo->tm_min, timeinfo->tm_sec);
 }
-/********************print log and call print_time()*/
+/**************print log and call print_time()**************/
 void print_log(unsigned long count, unsigned long len){
 	for(int i = 0; i < 20; ++i){
 		if(check[i] == false && (float)count/len*100 >= progress[i]){
